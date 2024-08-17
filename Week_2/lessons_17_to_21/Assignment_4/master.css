@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    padding:10px 20px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #009688; 
+    display: inline-block;
+    margin: 10px ;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-bottom: 5px #00514a solid;
+
+}

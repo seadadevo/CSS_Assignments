@@ -1,0 +1,41 @@
+div{
+    position: relative;
+}
+.green,
+.red,
+.blue,
+.black{
+    position: absolute;
+}
+.green{
+    background-color: green ;
+    width: 200px;
+    height:200px ;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+    
+}
+.red{
+    background-color:red ;
+    width: 200px;
+    height:200px ;
+    z-index: 3;
+    top: 20px;
+    left: 20px;
+}
+.blue{
+    background-color: blue;
+    width: 200px;
+    height:200px ;
+    z-index: 1;
+    top: 5px;
+    left: 5px;
+}
+.black{
+    background-color:black ;
+    width: 200px;
+    height:200px ;
+    top: 10px;
+    left: 5px;
+}

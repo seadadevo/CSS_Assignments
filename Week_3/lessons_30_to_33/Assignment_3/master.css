@@ -1,0 +1,25 @@
+ul{
+    margin: 0 auto;
+    padding: 8px 5px;
+    width: 400px;
+    list-style: none;
+}
+ul .list{
+    margin: 10px 0;
+    background-color: #EEEE;
+    padding: 10px;   
+}
+ul li ol li { 
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
+/* ! Js */
+ul li ul li{
+    /* list-style-type: circle;
+    list-style-position:inside ; */
+    list-style: inside circle;
+    margin: 5px 22px;
+    padding: 5px;
+    background-color: white;
+} 

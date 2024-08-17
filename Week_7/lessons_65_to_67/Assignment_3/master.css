@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    transform: translate(40%, 100%);
+    -webkit-transform: translate(40%, 100%);
+    -moz-transform: translate(40%, 100%);
+    -ms-transform: translate(40%, 100%);
+    -o-transform: translate(40%, 100%);
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #eeeeee;
+    font-weight: bolder;
+    font-size: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: -3px solid #ccc;
+}
+
+div::before {
+    content: '';
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #e91e63;
+    z-index: -1;
+    border-right: 10px solid #ff0066;
+    border-top: 10px solid #ff0066;
+    border-bottom: 10px solid #ff0066;
+    border-left: 10px solid #fff;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+div::after {
+    content: '';
+    width: 221px;
+    height: 221px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #03a9f4;
+    z-index: -2;
+    border-right: 10px solid #fff;
+    border-top: 10px solid #03a9f4;
+    border-bottom: 10px solid #03a9f4;
+    border-left: 10px solid #03a9f4;
+    top: -21px;
+    right: -19px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition-delay: 0.5s;
+}
+div:hover::before{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+div:hover::after{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}

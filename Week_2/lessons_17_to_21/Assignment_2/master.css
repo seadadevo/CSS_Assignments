@@ -1,0 +1,13 @@
+.one , .two , .three {
+    font-family: sans-serif;
+    text-align: center;
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+}

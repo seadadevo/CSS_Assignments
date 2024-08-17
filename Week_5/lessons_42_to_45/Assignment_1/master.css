@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.parent{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #f2f2f4;
+    padding: 10px;
+    text-align: center;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in; 
+    
+}
+.one{
+    font-size: 18px;
+    text-align: center;
+}
+.parent:hover{
+    margin-top: 30px;
+}
+
+.two{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #dededc;
+    padding: 10px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+        
+} 
+.parent:hover .two{
+    margin-top: 10px;
+}

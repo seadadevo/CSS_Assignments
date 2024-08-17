@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+table{
+    width: 700px;
+    margin: 0 auto;    
+}
+thead tr{
+    background-color: #404040;    
+}
+thead tr th{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+/* tbody */
+tbody tr{
+    background-color:#eeeeee ;
+}
+tbody tr td{
+    text-align: center;
+    padding: 10px;
+}
+/* button in control column */
+.view, .delete{
+    color: white;
+    border: none;
+    padding: 5px 10px ;
+    
+}
+.view{
+    background-color: #03a9f4;
+}
+.delete{
+    background-color:#e91e63 ;
+    }

@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat( 3 , 1fr);
+    grid-template-rows: 50px 1fr ;
+    gap: 20px;
+}
+.grid div{
+    padding: 10px;
+    background-color: #607d8b;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    }

@@ -1,0 +1,28 @@
+p{
+    font-family: sans-serif;  
+    background-color: #efefef;
+    margin: 10px auto;
+    padding: 20px;
+    width: 300px;
+    font-weight: 400;
+    position: relative;
+    counter-increment: members-counter;
+}
+p::after{
+    content: counter(members-counter);
+    background-color: #f44336;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: -41px;
+    color: white;
+}
+p::before{
+    content: "";
+    background-color: #f44336;
+    padding: 3px;
+    position: absolute;
+    height: 52px;
+    top: 0px;
+    right: 0px;
+}

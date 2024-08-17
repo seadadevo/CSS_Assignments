@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin: 200px auto;
+    background-color: #607d8b;
+    position: relative;
+    border-bottom: 5px solid #000;
+    z-index: -1;
+       
+}
+div::before {
+    content: "";
+    width: 96px;
+    height: 100px;
+    position: absolute;
+    top: -51px;
+    left: 44px;
+    transform: matrix(1, 1, 1, -1, 6, 0);
+    z-index: 1;
+    background-color: #000;
+    border-right: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+ div::after {
+     content: "Ahmed";
+     font-family: sans-serif;
+     color: #fff;
+     font-size: 20px;
+     position: absolute;
+     bottom: 10px;
+     left: 10px;
+ }

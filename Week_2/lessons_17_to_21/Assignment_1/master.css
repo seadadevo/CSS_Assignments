@@ -1,0 +1,7 @@
+div{
+    font-family: sans-serif;
+        color: black;
+        font-size: 20px;
+        text-transform: capitalize;
+        text-shadow: 1px 1px 0px #f44336, 2px 2px 0px #2196f3, 3px 3px 0px #9c27b0;
+}

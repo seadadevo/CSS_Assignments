@@ -1,0 +1,20 @@
+div{
+    background: #eeeeee;
+    width: 400px;
+    height: 400px;
+    background-image: url(../../imgs/Screenshot\ 2024-05-03\ 034050.png);
+    margin: 20px;
+    
+    color: white;
+}
+.assign-3-shape-2{
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.assign-3-shape-3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+}   
+.assign-3-shape-4{
+    background-repeat: repeat;
+}
